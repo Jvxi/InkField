@@ -374,37 +374,6 @@ QQ阅读<br/>
 
 <br/>
 
-## 📊 GitHub 统计
-
-<div align="center">
-
-<!-- GitHub Stats -->
-<img src="https://github-readme-stats-one-bice.vercel.app/api?username=Jvxi&show_icons=true&theme=radical&border_color=6366F1&title_color=6366F1&icon_color=6366F1&text_color=ffffff&bg_color=0d1117&hide_border=true&count_private=true" width="48%"/>
-
-&nbsp;
-
-<!-- Top Languages -->
-<img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=Jvxi&layout=compact&theme=radical&border_color=6366F1&title_color=6366F1&text_color=ffffff&bg_color=0d1117&hide_border=true&langs_count=8" width="40%"/>
-
-<br/><br/>
-
-<!-- Streak Stats -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Jvxi&theme=radical&border=6366F1&ring=6366F1&fire=6366F1&currStreakLabel=6366F1&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=555555&background=0d1117" width="70%"/>
-
-<br/><br/>
-
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jvxi&bg_color=0d1117&color=6366F1&line=6366F1&point=ffffff&area_color=6366F1&area=true&hide_border=true" alt="Activity Graph" />
-
-</div>
-
-<br/>
-
-<!-- ====== 动态分隔线 ====== -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<br/>
-
 ## 🤝 贡献者
 
 <div align="center">
