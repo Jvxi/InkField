@@ -1,32 +1,31 @@
+# 前后端独立仓库（汇总仓库只放说明文件）
+frontend/
+backend/
+
+# 其他文件
+.claude/
+package.json
+package-lock.json
+project.json
+api-test.postman_collection.json
+
 # Dependencies
 node_modules
 
 # Build output
 dist
-frontend/dist
-backend/dist
-backend/target
+target
 
 # IDE
 .idea
 *.iml
 .vscode
 
-# Data & logs
-backend/data
-backend/logs
-
 # OS
 .DS_Store
 Thumbs.db
-
-# TypeScript build info
-*.tsbuildinfo
 
 # Environment
 .env
 .env.local
 .env.*.local
-
-# Package lock (optional)
-package-lock.json

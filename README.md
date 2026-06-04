@@ -1,16 +1,18 @@
 <div align="center">
 
-<!-- ====== 动态打字标题 ====== -->
-<a href="https://github.com/Jvxi/InkField">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=42&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%F0%9F%96%8B%EF%B8%8F+%E7%A0%9A%E7%94%B0+InkField;AI+%E9%A9%B1%E5%8A%A8%E7%9A%84%E5%B0%8F%E8%AF%B4%E5%88%9B%E4%BD%9C%E5%B7%A5%E4%BD%9C%E5%8F%B0" alt="Typing SVG" />
-</a>
+<!-- ====== 动态波浪头部 ====== -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=150&section=header" width="100%"/>
 
 <br/>
 
-<!-- ====== 动态 Banner ====== -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=180&section=header&text=InkField&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Powered%20Novel%20Writing%20Studio&descSize=20&descAlignY=55&descAlign=50" width="100%"/>
+<!-- ====== 项目标题 ====== -->
+# 🖋️ 砚田 (InkField)
 
-<br/><br/>
+### ✨ AI 驱动的网络小说创作工作台 ✨
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&weight=700&size=24&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=60&lines=支持大纲%2C角色%2C伏笔%2C章节全流程创作;严格模式约束正文纯度与禁写内容)](https://git.io/typing-svg)
+
+<br/>
 
 <!-- ====== 徽章组 ====== -->
 [![Frontend](https://img.shields.io/badge/🖥️_Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://github.com/Jvxi/InkField-frontend)
