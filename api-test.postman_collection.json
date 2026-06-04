@@ -1,0 +1,318 @@
+{
+  "info": {
+    "name": "Novel AI Studio API Test",
+    "description": "测试迁移的功能API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://129.204.18.106:4000"
+    },
+    {
+      "key": "token",
+      "value": ""
+    },
+    {
+      "key": "bookId",
+      "value": ""
+    }
+  ],
+  "item": [
+    {
+      "name": "1. 认证",
+      "item": [
+        {
+          "name": "获取验证码",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/api/auth/captcha"
+          }
+        },
+        {
+          "name": "登录",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/auth/login",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"你的邮箱\",\n  \"password\": \"你的密码\"\n}"
+            },
+            "event": [
+              {
+                "listen": "test",
+                "script": {
+                  "exec": [
+                    "var jsonData = pm.response.json();",
+                    "if (jsonData.token) {",
+                    "  pm.collectionVariables.set('token', jsonData.token);",
+                    "  console.log('Token saved: ' + jsonData.token);",
+                    "}"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "2. Story System",
+      "item": [
+        {
+          "name": "题材路由",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/story-system/{{bookId}}/route",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"query\": \"玄幻修仙\",\n  \"genre\": \"玄幻\"\n}"
+            }
+          }
+        },
+        {
+          "name": "生成主设定合同",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/story-system/{{bookId}}/master-setting",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"query\": \"玄幻修仙\",\n  \"genre\": \"玄幻\"\n}"
+            }
+          }
+        },
+        {
+          "name": "获取主设定合同",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/api/story-system/{{bookId}}/master-setting",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ]
+          }
+        },
+        {
+          "name": "生成章节合同",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/story-system/{{bookId}}/chapter/1/brief",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "3. 记忆系统",
+      "item": [
+        {
+          "name": "获取记忆包",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/api/memory/{{bookId}}/pack?chapter=1&taskType=write",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ]
+          }
+        },
+        {
+          "name": "记忆统计",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/api/memory/{{bookId}}/stats",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "4. RAG系统",
+      "item": [
+        {
+          "name": "RAG统计",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/api/rag/{{bookId}}/stats",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ]
+          }
+        },
+        {
+          "name": "混合检索",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/rag/{{bookId}}/search",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"query\": \"主角修炼\",\n  \"topK\": 10\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "5. 追读力系统",
+      "item": [
+        {
+          "name": "追读力统计",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/api/reading-power/{{bookId}}/stats",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ]
+          }
+        },
+        {
+          "name": "分析章节追读力",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/reading-power/{{bookId}}/chapter/1/analyze",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"text\": \"这是一个测试章节内容。主角在修炼中遇到了危机，突然发现了一个神秘的宝物。\"\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "6. 章节提交",
+      "item": [
+        {
+          "name": "获取提交记录",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/api/commit/{{bookId}}/chapters",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ]
+          }
+        },
+        {
+          "name": "获取事件",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/api/events/{{bookId}}",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "7. 上下文系统",
+      "item": [
+        {
+          "name": "获取写作指导",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/api/context/{{bookId}}/chapter/1/guidance",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ]
+          }
+        },
+        {
+          "name": "组装上下文包",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/context/{{bookId}}/chapter/1/assemble?taskType=write",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{token}}"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

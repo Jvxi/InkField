@@ -1,0 +1,19 @@
+{
+  "name": "novel-ai-studio",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently -n backend,frontend -c blue,green \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "powershell -NoProfile -ExecutionPolicy Bypass -File ./backend/scripts/dev.ps1",
+    "dev:frontend": "npm run dev --workspace frontend",
+    "build": "npm run build --workspace frontend && powershell -NoProfile -ExecutionPolicy Bypass -File ./backend/scripts/build.ps1",
+    "build:frontend": "npm run build --workspace frontend",
+    "build:backend": "powershell -NoProfile -ExecutionPolicy Bypass -File ./backend/scripts/build.ps1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
