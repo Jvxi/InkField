@@ -11,7 +11,7 @@
 
 ### ✨ AI 驱动的网络小说创作工作台 ✨
 
-<img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&weight=700&size=24&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=支持大纲%2C角色%2C伏笔%2C章节全流程创作;严格模式约束正文纯度与禁写内容" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=AI+Powered+Novel+Writing+Studio;Support+Outline+Character+Foreshadowing+Chapter" alt="Typing SVG" />
 
 </div>
 
