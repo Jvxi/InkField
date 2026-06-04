@@ -83,13 +83,9 @@
 <br/>
 
 <!-- 仓库卡片 -->
-<a href="https://github.com/Jvxi/InkField-frontend">
-  <img src="https://github-readme-stats-one-bice.vercel.app/api/pin/?username=Jvxi&repo=InkField-frontend&theme=radical&border_color=6366F1&title_color=61DAFB&icon_color=61DAFB&text_color=ffffff&bg_color=0d1117" width="48%">
-</a>
+<img src="https://github-readme-stats-one-bice.vercel.app/api/pin/?username=Jvxi&repo=InkField-frontend&theme=radical&border_color=6366F1&title_color=61DAFB&icon_color=61DAFB&text_color=ffffff&bg_color=0d1117" width="48%">
 &nbsp;
-<a href="https://github.com/Jvxi/InkField-backend">
-  <img src="https://github-readme-stats-one-bice.vercel.app/api/pin/?username=Jvxi&repo=InkField-backend&theme=radical&border_color=6366F1&title_color=6DB33F&icon_color=6DB33F&text_color=ffffff&bg_color=0d1117" width="48%">
-</a>
+<img src="https://github-readme-stats-one-bice.vercel.app/api/pin/?username=Jvxi&repo=InkField-backend&theme=radical&border_color=6366F1&title_color=6DB33F&icon_color=6DB33F&text_color=ffffff&bg_color=0d1117" width="48%">
 
 </div>
 
@@ -382,7 +378,7 @@ QQ阅读<br/>
 <br/><br/>
 
 <!-- Activity Graph -->
-[![Jvxi's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Jvxi&bg_color=0d1117&color=6366F1&line=6366F1&point=ffffff&area_color=6366F1&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jvxi&bg_color=0d1117&color=6366F1&line=6366F1&point=ffffff&area_color=6366F1&area=true&hide_border=true" alt="Activity Graph" />
 
 </div>
 
