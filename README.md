@@ -84,11 +84,11 @@
 
 <!-- 仓库卡片 -->
 <a href="https://github.com/Jvxi/InkField-frontend">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jvxi&repo=InkField-frontend&theme=radical&border_color=6366F1&title_color=61DAFB&icon_color=61DAFB&text_color=ffffff&bg_color=0d1117" width="48%">
+  <img src="https://github-readme-stats-one-bice.vercel.app/api/pin/?username=Jvxi&repo=InkField-frontend&theme=radical&border_color=6366F1&title_color=61DAFB&icon_color=61DAFB&text_color=ffffff&bg_color=0d1117" width="48%">
 </a>
 &nbsp;
 <a href="https://github.com/Jvxi/InkField-backend">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jvxi&repo=InkField-backend&theme=radical&border_color=6366F1&title_color=6DB33F&icon_color=6DB33F&text_color=ffffff&bg_color=0d1117" width="48%">
+  <img src="https://github-readme-stats-one-bice.vercel.app/api/pin/?username=Jvxi&repo=InkField-backend&theme=radical&border_color=6366F1&title_color=6DB33F&icon_color=6DB33F&text_color=ffffff&bg_color=0d1117" width="48%">
 </a>
 
 </div>
@@ -367,12 +367,12 @@ QQ阅读<br/>
 <div align="center">
 
 <!-- GitHub Stats -->
-<img src="https://github-readme-stats.vercel.app/api?username=Jvxi&show_icons=true&theme=radical&border_color=6366F1&title_color=6366F1&icon_color=6366F1&text_color=ffffff&bg_color=0d1117&hide_border=true&count_private=true" width="48%"/>
+<img src="https://github-readme-stats-one-bice.vercel.app/api?username=Jvxi&show_icons=true&theme=radical&border_color=6366F1&title_color=6366F1&icon_color=6366F1&text_color=ffffff&bg_color=0d1117&hide_border=true&count_private=true" width="48%"/>
 
 &nbsp;
 
 <!-- Top Languages -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jvxi&layout=compact&theme=radical&border_color=6366F1&title_color=6366F1&text_color=ffffff&bg_color=0d1117&hide_border=true&langs_count=8" width="40%"/>
+<img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=Jvxi&layout=compact&theme=radical&border_color=6366F1&title_color=6366F1&text_color=ffffff&bg_color=0d1117&hide_border=true&langs_count=8" width="40%"/>
 
 <br/><br/>
 
@@ -383,11 +383,6 @@ QQ阅读<br/>
 
 <!-- Activity Graph -->
 [![Jvxi's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Jvxi&bg_color=0d1117&color=6366F1&line=6366F1&point=ffffff&area_color=6366F1&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-<br/><br/>
-
-<!-- Trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=Jvxi&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10" width="100%"/>
 
 </div>
 
