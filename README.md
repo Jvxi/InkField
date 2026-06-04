@@ -244,9 +244,19 @@ QQ阅读<br/>
 
 <div align="center">
 
-| ![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=flat-square&logo=nodedotjs&logoColor=white) | ![JDK](https://img.shields.io/badge/JDK-21-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | ![Maven](https://img.shields.io/badge/Maven-3.9+-C71A36?style=flat-square&logo=apachemaven&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-4169E1?style=flat-square&logo=postgresql&logoColor=white) |
+| ![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=flat-square&logo=nodedotjs&logoColor=white) | ![JDK](https://img.shields.io/badge/JDK-21-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | ![Maven](https://img.shields.io/badge/Maven-3.9+-C71A36?style=flat-square&logo=apachemaven&logoColor=white) | ![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?style=flat-square&logo=mysql&logoColor=white) |
 |:---:|:---:|:---:|:---:|
 | 运行环境 | 后端开发 | 构建工具 | 数据库 |
+
+</div>
+
+### ⚠️ 配置说明
+
+<div align="center">
+
+> **敏感配置文件不会提交到远程仓库**
+>
+> 后端需要自行创建 `application.yml` 配置文件，请参考各仓库的 README 说明
 
 </div>
 
