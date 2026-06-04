@@ -83,9 +83,25 @@
 <br/>
 
 <!-- 仓库卡片 -->
-<img src="https://github-readme-stats-one-bice.vercel.app/api/pin/?username=Jvxi&repo=InkField-frontend&theme=radical&border_color=6366F1&title_color=61DAFB&icon_color=61DAFB&text_color=ffffff&bg_color=0d1117" width="48%">
-&nbsp;
-<img src="https://github-readme-stats-one-bice.vercel.app/api/pin/?username=Jvxi&repo=InkField-backend&theme=radical&border_color=6366F1&title_color=6DB33F&icon_color=6DB33F&text_color=ffffff&bg_color=0d1117" width="48%">
+<table align="center">
+<tr>
+<td align="center" width="45%">
+<img src="https://img.shields.io/badge/🖥️ InkField Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black" /><br/>
+<b>React + Vite + TypeScript</b><br/>
+<a href="https://github.com/Jvxi/InkField-frontend">
+<img src="https://img.shields.io/github/stars/Jvxi/InkField-frontend?style=social" />
+</a>
+</td>
+<td width="10%"></td>
+<td align="center" width="45%">
+<img src="https://img.shields.io/badge/⚙️ InkField Backend-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" /><br/>
+<b>Spring Boot + Java 21</b><br/>
+<a href="https://github.com/Jvxi/InkField-backend">
+<img src="https://img.shields.io/github/stars/Jvxi/InkField-backend?style=social" />
+</a>
+</td>
+</tr>
+</table>
 
 </div>
 
